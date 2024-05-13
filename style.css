@@ -7,6 +7,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Gotham Pro';
     src: url(/fonts/GothamPro-Bold.woff2) format('woff2');
@@ -14,6 +15,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Stolzl';
     src: url(/fonts/Stolzl-Book.woff2) format('woff2');
@@ -21,6 +23,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Stolzl';
     src: url(/fonts/Stolzl-Regular.woff2) format('woff2');
@@ -29,7 +32,7 @@
     font-display: swap;
 }
 
-:root{
+:root {
     --color-white: #ffffff;
     --color-black: #000000;
     --color-accent: #D5621D;
@@ -47,13 +50,14 @@
     --transition-duration: 0.2s;
 }
 
-body{
+body {
     background: #210E09;
     color: var(--color-white);
     font-size: 14px;
     font-family: "Stolzl", sans-serif;
 }
-img{
+
+img {
     border-radius: 5px;
 }
 
@@ -110,13 +114,14 @@ h6 {
     font-size: clamp(10px, .9375vw, 18px);
     line-height: 1.5;
 }
+
 .title {
     font-family: "Gotham Pro", sans-serif;
     font-size: clamp(20px, 2.08vw, 40px);
     line-height: 1.5;
 }
 
-.big-button{
+.big-button {
     border: var(--border);
     border-radius: var(--border-radius);
     padding: var(--big-buttons-padding);
@@ -124,19 +129,20 @@ h6 {
     text-transform: uppercase;
 }
 
-.button{
+.button {
     border: var(--border);
     border-radius: var(--border-radius);
     padding: var(--buttons-padding);
     background: transparent;
     text-transform: uppercase;
 }
+
 .big-button:hover,
 .button:hover {
     background-color: var(--color-accent);
 }
 
-.button-white{
+.button-white {
     border: 1px solid var(--color-white);
     border-radius: var(--border-radius);
     padding: var(--big-buttons-padding);
@@ -144,6 +150,7 @@ h6 {
     color: var(--color-black);
     text-transform: uppercase;
 }
+
 .button-white:hover {
     background-color: transparent;
     color: var(--color-white);
@@ -152,7 +159,7 @@ h6 {
 .playbill,
 .menu,
 .events,
-.tech-rider{
+.tech-rider {
     margin-bottom: 150px;
 }
 
@@ -182,12 +189,13 @@ h6 {
 
 /*Playbill*/
 
-.playbill{
+.playbill {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 24px;
 }
+
 .banner {
     display: flex;
     justify-content: end;
@@ -210,7 +218,8 @@ h6 {
     width: clamp(220px, 22vw, 420px);
     height: clamp(300px, 100%, 540px);
 }
-.upcoming-banner__buttons{
+
+.upcoming-banner__buttons {
     display: flex;
     align-items: center;
 }
@@ -241,7 +250,7 @@ h6 {
 /*Menu*/
 
 
-.menu__header{
+.menu__header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,7 +259,7 @@ h6 {
     margin-bottom: 80px;
 }
 
-.menu__body{
+.menu__body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 55px;
@@ -278,7 +287,8 @@ h6 {
 
 .manu__card-description {
 }
-.centered-menu-button{
+
+.centered-menu-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -288,6 +298,7 @@ h6 {
     background-color: var(--color-accent);
     font-size: 18px;
 }
+
 .filled-button:hover {
     background-color: transparent;
 }
@@ -303,7 +314,7 @@ h6 {
 }
 
 .event-left-side,
-.event-right-side{
+.event-right-side {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,7 +323,7 @@ h6 {
 }
 
 /*Tech-rider*/
-.tech-rider{
+.tech-rider {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -351,13 +362,14 @@ h6 {
 .tech-rider__body__card__image {
     max-width: 300px;
 }
-.tech-rider__body__card__links{
+
+.tech-rider__body__card__links {
     display: flex;
     column-gap: 20px;
 }
 
 .fa-telegram,
-.fa-instagram{
+.fa-instagram {
     text-align: center;
     width: 40px;
     aspect-ratio: 1;
@@ -368,9 +380,10 @@ h6 {
 
 /*Contacts*/
 
-.contacts{
+.contacts {
     margin-bottom: 120px;
 }
+
 .contacts__header {
     display: flex;
     flex-direction: column;
@@ -409,16 +422,15 @@ h6 {
 
 .contacts__body__map-image {
     min-height: 650px;
-
 }
 
 /*Footer*/
 
-.footer{
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 30px ;
+    column-gap: 30px;
     padding: 30px;
     border-top: 1px solid var(--color-white);
     opacity: 80%;
