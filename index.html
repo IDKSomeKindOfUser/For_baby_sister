@@ -4,8 +4,255 @@
     <meta charset="UTF-8">
     <title>My project</title>
     <link rel="stylesheet" href="style.css">
+    <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
 </head>
 <body>
-
+<header class="header container">
+    <a href="/" class="header__logo">
+        <img src="icons/logo.svg" alt="logo" loading="lazy" width="158" height="40">
+    </a>
+    <nav class="header-nav-menu">
+        <ul class="header-nav-menu__list">
+            <li class="header-nav-menu__item">
+                <a href="" class="header-nav-menu__link">
+                    Главная
+                </a>
+            </li>
+            <li class="header-nav-menu__item">
+                <a href="" class="header-nav-menu__link">
+                    Меню
+                </a>
+            </li>
+            <li class="header-nav-menu__item">
+                <a href="" class="header-nav-menu__link">
+                    Афиша
+                </a>
+            </li>
+            <li class="header-nav-menu__item">
+                <a href="" class="header-nav-menu__link">
+                    Сотрудничество
+                </a>
+            </li>
+            <li class="header-nav-menu__item">
+                <a href="" class="header-nav-menu__link">
+                    Галерея
+                </a>
+            </li>
+            <li class="header-nav-menu__item">
+                <a href="" class="header-nav-menu__link">
+                    Новости
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header-actions">
+        <button type="button" class="header-action-button big-button">бронирование</button>
+    </div>
+</header>
+<main class="main container">
+    <section class="playbill">
+        <h2 class="visually-hidden">Playbill</h2>
+        <div class="banner">
+            <button class="banner-button button-white">Since 1996</button>
+            <h3 class="banner-title title">
+                True. Fontanka. <br/>
+                Underground.
+            </h3>
+        </div>
+        <div class="upcoming-banner">
+            <div class="upcoming-banner__buttons">
+                <h4 class="upcoming-banner__nearby-button">Ближайшие</h4>
+                <h4 class="upcoming-banner__upcoming-button">скоро</h4>
+            </div>
+            <div class="upcoming-banner__playbill">
+                <img src="/images/Afisha/1.jpeg" alt="banner">
+                <img src="/images/Afisha/2.jpeg" alt="banner">
+                <img src="/images/Afisha/3.jpeg" alt="banner">
+                <img src="/images/Afisha/4.jpeg" alt="banner">
+            </div>
+        </div>
+    </section>
+    <section class="menu">
+        <h2 class="visually-hidden">Manu of restaurant</h2>
+        <header class="menu__header">
+            <button class="menu__button button-white">Top “Manhattan” menu</button>
+            <h2 class="menu-title title">Кухня</h2>
+        </header>
+        <div class="menu__body">
+            <div class="menu__card">
+                <a href="/" class="menu__card-link" style="grid-area: a">
+                    <img src="/images/Menu/1.jpeg" alt="Dish">
+                </a>
+                <h3 class="menu__card-subtitle subtitle" style="grid-area: b">Amet donec.</h3>
+                <button class="menu__card-price-button button" style="grid-area: c">550 ₽</button>
+                <p class="menu__card-weight" style="grid-area: d">200 гр</p>
+                <p class="manu__card-description" style="grid-area: e">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo
+                    elit diam nibh elit.</p>
+            </div>
+            <div class="menu__card">
+                <a href="/" class="menu__card-link" style="grid-area: a">
+                    <img src="/images/Menu/2.jpeg" alt="Dish">
+                </a>
+                <h3 class="menu__card-subtitle subtitle" style="grid-area: b">Amet donec.</h3>
+                <button class="menu__card-price-button button" style="grid-area: c">550 ₽</button>
+                <p class="menu__card-weight" style="grid-area: d">200 гр</p>
+                <p class="manu__card-description" style="grid-area: e">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo
+                    elit diam nibh elit.</p>
+            </div>
+            <div class="menu__card">
+                <a href="/" class="menu__card-link" style="grid-area: a">
+                    <img src="/images/Menu/3.jpeg" alt="Dish">
+                </a>
+                <h3 class="menu__card-subtitle subtitle" style="grid-area: b">Amet donec.</h3>
+                <button class="menu__card-price-button button" style="grid-area: c">550 ₽</button>
+                <p class="menu__card-weight" style="grid-area: d">200 гр</p>
+                <p class="manu__card-description" style="grid-area: e">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo
+                    elit diam nibh elit.</p>
+            </div>
+            <div class="menu__card">
+                <a href="/" class="menu__card-link" style="grid-area: a">
+                    <img src="/images/Menu/4.jpeg" alt="Dish">
+                </a>
+                <h3 class="menu__card-subtitle subtitle" style="grid-area: b">Amet donec.</h3>
+                <button class="menu__card-price-button button" style="grid-area: c">550 ₽</button>
+                <p class="menu__card-weight" style="grid-area: d">200 гр</p>
+                <p class="manu__card-description" style="grid-area: e">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo
+                    elit diam nibh elit.</p>
+            </div>
+            <div class="menu__card">
+                <a href="/" class="menu__card-link" style="grid-area: a">
+                    <img src="/images/Menu/5.jpeg" alt="Dish">
+                </a>
+                <h3 class="menu__card-subtitle subtitle" style="grid-area: b">Amet donec.</h3>
+                <button class="menu__card-price-button button" style="grid-area: c">550 ₽</button>
+                <p class="menu__card-weight" style="grid-area: d">200 гр</p>
+                <p class="manu__card-description" style="grid-area: e">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo
+                    elit diam nibh elit.</p>
+            </div>
+            <div class="menu__card">
+                <a href="/" class="menu__card-link" style="grid-area: a">
+                    <img src="/images/Menu/6.jpeg" alt="Dish">
+                </a>
+                <h3 class="menu__card-subtitle subtitle" style="grid-area: b">Amet donec.</h3>
+                <button class="menu__card-price-button button" style="grid-area: c">550 ₽</button>
+                <p class="menu__card-weight" style="grid-area: d">200 гр</p>
+                <p class="manu__card-description" style="grid-area: e">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo
+                    elit diam nibh elit.</p>
+            </div>
+            <div class="menu__card">
+                <a href="/" class="menu__card-link" style="grid-area: a">
+                    <img src="/images/Menu/7.jpeg" alt="Dish">
+                </a>
+                <h3 class="menu__card-subtitle subtitle" style="grid-area: b">Amet donec.</h3>
+                <button class="menu__card-price-button button" style="grid-area: c">550 ₽</button>
+                <p class="menu__card-weight" style="grid-area: d">200 гр</p>
+                <p class="manu__card-description" style="grid-area: e">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo
+                    elit diam nibh elit.</p>
+            </div>
+            <div class="menu__card">
+                <a href="/" class="menu__card-link" style="grid-area: a">
+                    <img src="/images/Menu/8.jpeg" alt="Dish">
+                </a>
+                <h3 class="menu__card-subtitle subtitle" style="grid-area: b">Amet donec.</h3>
+                <button class="menu__card-price-button button" style="grid-area: c">550 ₽</button>
+                <p class="menu__card-weight" style="grid-area: d">200 гр</p>
+                <p class="manu__card-description" style="grid-area: e">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo
+                    elit diam nibh elit.</p>
+            </div>
+        </div>
+        <div class="centered-menu-button">
+            <button class="filled-button big-button">все меню</button>
+        </div>
+    </section>
+    <section class="events">
+        <h2 class="visually-hidden">Events</h2>
+        <div class="event-left-side">
+            <button class="event-left-side__button button-white">Top “Manhattan” events</button>
+            <h2 class="event-left-side__title title">Банкеты</h2>
+            <p class="event-left-side__description">Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.
+                <br>
+                <br>
+                Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.
+                <br>
+                <br>
+                Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper at id eleifend.</p>
+            <button class="event-left-side__about-button button">Подробнее</button>
+        </div>
+        <img src="/images/Event.jpeg" alt="event middle image">
+        <div class="event-right-side">
+            <button class="event-right-side__button button-white">Top “Manhattan” events</button>
+            <h2 class="event-right-side__title title">Туристы</h2>
+            <p class="event-right-side__description">Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.
+                <br>
+                <br>
+                Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.
+                <br>
+                <br>
+                Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper at id eleifend.</p>
+            <button class="event-right-side__about-button button">Подробнее</button>
+        </div>
+    </section>
+    <section class="tech-rider">
+        <header class="tech-rider__header">
+            <button class="contacts__header__button button-white">Top “Manhattan” place</button>
+            <h2 class="contacts__header__title title">техрайдер</h2>
+        </header>
+        <h3 class="tech-rider__body__title title">
+            Звукорежиссеры клуба МАНХЭТТЕН
+        </h3>
+        <div class="tech-rider__body">
+            <div class="tech-rider__body__card">
+                <img src="./images/sister/1.jpg" alt="my photo" class="tech-rider__body__card__image">
+                <h5 class="tech-rider__body__subtitle subtitle">Ходжаева София</h5>
+                <div class="tech-rider__body__card__links">
+                    <a href="https://t.me/kupcst"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/kupcst?igsh=MWR5Y2RqdzczZHF2bg=="><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="tech-rider__body__card">
+                <img src="./images/sister/2.jpg" alt="my photo" class="tech-rider__body__card__image">
+                <h5 class="tech-rider__body__subtitle subtitle">Ходжаева София</h5>
+                <div class="tech-rider__body__card__links">
+                    <a href="https://t.me/kupcst"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/kupcst?igsh=MWR5Y2RqdzczZHF2bg=="><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <h2 class="visually-hidden">Contacts</h2>
+        <header class="contacts__header">
+            <button class="contacts__header__button button-white">Top “Manhattan” place</button>
+            <h2 class="contacts__header__title title">контакты</h2>
+        </header>
+        <div class="contacts__body">
+            <div class="contacts__body__aside-panel">
+                <h4 class="contacts__body__subtitle subtitle">Адрес</h4>
+                <p class="contacts__body__description">Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами)</p>
+                <h4 class="contacts__body__subtitle subtitle">телефон</h4>
+                <p class="contacts__body__description"><a href="tel:8-812-713-1945">+7 (812) 713-1945</a></p>
+                <h4 class="contacts__body__subtitle subtitle">режим работы</h4>
+                <p class="contacts__body__description-with-bottom-line">Ежедневно с 12:00 до 06:00</p>
+                <h4 class="contacts__body__subtitle subtitle">директор</h4>
+                <p class="contacts__body__description">Лидия Эмильевна, +7(921) 963-55-50</p>
+                <h4 class="contacts__body__subtitle subtitle">арт-директор</h4>
+                <p class="contacts__body__description">Илиния Ионашко, +7(981) 989-43-30</p>
+            </div>
+            <div class="contacts__body__map-image">
+                <img src="/images/contacts-map.jpeg" alt="map" class="contacts__body__map-image">
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer container">
+    <h5 class="subtitle">
+        Разработано Ходжаевой Софией
+    </h5>
+    <a href="https://t.me/kupcst"><i class="fab fa-telegram-plane"></i></a>
+    <a href="https://www.instagram.com/kupcst?igsh=MWR5Y2RqdzczZHF2bg=="><i class="fab fa-instagram-square"></i></a>
+</footer>
 </body>
 </html>
